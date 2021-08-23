@@ -9,6 +9,20 @@ body
 {
     background-color: #CFDDC2;
 }
+
+footer
+{
+    background: #466D1D;
+    color: #382710;
+    text-shadow: 1px 1px #101010;
+    text-align: center;
+    border-top: 10px solid #382710;
+}
+
+footer h2
+{
+    font-size: 25px;
+}
 /* Header Styles*/
 
 header 
@@ -90,10 +104,52 @@ header nav ul li a
 
 .about h2
 {
-    text-shadow: 2px 2px #101010;
+    text-shadow: 1px 1px #101010;
     font-weight: bold;
     font-size: 32px;
     font-family: "Lucida Console", "Courier New", monospace;
     color: #382710;
     margin-top: 2%;
+}
+
+.projects h2
+{
+    text-shadow: 1px 1px #101010;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    margin-top: 5%;
+    margin-left: 85%;
+}
+
+.projects
+{
+    width: 100%;
+    text-align: center;
+    margin: 65px 0;
+}
+
+.run-buddy
+{
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.run-buddy a
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.run-buddy img
+{
+    border: 5px solid #382710;
+    width: 80%;
 }
