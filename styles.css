@@ -50,10 +50,43 @@ header nav ul li a
 {
     background-color: #466D1D;
     text-shadow: 1px 1px #101010;
-    color: #787C79;
+    color: #9ACD32;
     padding: 10px 15px;
     font-size: 1.55vw;		
 }
+
+.about
+{
+    padding-left: 75px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about p
+{
+    padding-top: 25px;
+    font-size: 22px;
+}
+.about-me
+{
+    padding-top: 65px;
+    width: 35%;
+    text-align: left;
+    margin: 5%;
+}
+
+ .about-image
+{
+    margin: 50px;
+}
+ .about-image img
+ {
+    border: 5px solid #382710;
+ }
 
 .about h2
 {
