@@ -151,5 +151,54 @@ header nav ul li a
 .run-buddy img
 {
     border: 5px solid #382710;
-    width: 80%;
+    width: 85%;
+}
+
+.placehold
+{
+    padding-left: 75px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.placehold img
+{
+    border: 5px solid #382710;
+    width: 35%;
+}
+
+.placehold p
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px;
+}
+
+
+.contact-info h2
+{
+    text-shadow: 1px 1px #101010;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+}
+
+.contact-info ul li a
+{
+    color: #9A7B4F;
+    padding: 10px 15px;
+}
+
+.contact-info ul li
+{
+    font-size: 22px;
 }
