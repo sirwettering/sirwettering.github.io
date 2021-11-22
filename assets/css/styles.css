@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CFDDC2;
+}
+
+footer {
+    background: #466D1D;
+    color: #382710;
+    text-shadow: 1px 1px #101010;
+    text-align: center;
+    border-top: 10px solid #382710;
+    padding: 25px;
+}
+
+footer h4 {
+    font-size: 25px;
+}
+
+footer p {
+    font-size: 20px;
+}
+/* Begin Header Styles*/
+header {
+    padding: 20px 35px;
+    background-color: #466D1D;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 10px solid #382710;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+header h1 {
+    background-color: #466D1D;
+    text-shadow: 2px 2px #101010;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #9A7B4F;
+    margin: 0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    background-color: #466D1D;
+    text-shadow: 1px 1px #101010;
+    color: #9ACD32;
+    padding: 10px 15px;
+    font-size: 1.55vw;		
+}
+/* End Header Styles*/
+
+/* Begin About Styles*/
+.about {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.about p {
+    padding-top: 25px;
+    font-size: 22px;
+}
+
+.about-me {
+    padding-top: 10%;
+    width: 50%;
+    text-align: left;
+    padding-left: 15%;
+    flex: 1;
+}
+
+ .about-image {
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 15%;
+}
+ .about-image img {
+    border: 5px solid #382710;
+ }
+
+.about h2 {
+    text-shadow: 1px 1px #101010;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    margin-top: 2%;
+}
+/* End About Styles*/
+
+/* Begin Projects Styles*/
+.projects {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.projects h2 {
+    text-shadow: 1px 1px #101010;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    text-align: left;
+    padding-left: 80%;
+}
+
+.run-buddy {
+    padding-top: 50px;
+    text-align: center;
+    flex: 1 0 90%;
+}
+
+.run-buddy p {
+    padding-top: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.run-buddy a:hover {
+    color: #9ACD32;
+}
+.run-buddy a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    font-size: 22px;
+}
+
+.run-buddy img {
+    border: 5px solid #382710;
+    width: 91%
+}
+
+.run-buddy img:hover {
+    opacity: 0.5;
+    border: 5px solid #9ACD32;
+}
+
+.java {
+    padding-top: 50px;
+    flex: 1 1 42%;
+    padding-right: 5%;
+}
+
+.placehold-2 {
+    padding-top: 50px;
+    flex: 1 1 42%;
+    padding-right: 5%;
+}
+
+.java img {
+    border: 5px solid #382710;
+    width: 90%;
+}
+
+.placehold-2 img {
+    border: 5px solid #382710;
+    width: 90%;
+}
+
+.java img:hover,
+.placehold-2 img:hover {
+    opacity: 0.5;
+    border: 5px solid #9ACD32;
+}
+
+.java p,
+.placehold-2 p {
+    padding-top: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    font-size: 22px;
+    text-align: right;
+    text-decoration: underline;
+}
+/* End Projects Styles*/
+
+/* Begin Contact Styles*/
+.contact-info {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.contact-info h2 {
+    text-shadow: 1px 1px #101010;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #382710;
+    flex: 1 0 100%;
+    padding-left: 5%;
+}
+
+.contact-info ul {
+    flex: 1;
+    padding: 2% 5%;
+}
+
+.contact-info ul li a {
+    color: #9A7B4F;
+    padding: 5% 0;
+}
+
+.contact-info ul li {
+    font-size: 22px;
+    text-align: left;
+    list-style: none;
+}
+
+.contact-info ul li a:hover {
+    color: #9ACD32;
+}
+/* End Contact Styles*/
+
+/* Media Query For Smaller Desktop Screens and Smaller */
+
+@media screen and (max-width: 980px) {
+    /*Format Small Desktop Screens*/
+}
+
+/* Media Query For Tablets and Smaller */
+
+@media screen and (max-width: 768px) {
+    /*Format Tablet Screen*/
+}
+
+/* Media Query For Phones and Smaller */
+
+@media screen and (max-width: 575px) {
+    /*Format Phone Screens*/
+}
